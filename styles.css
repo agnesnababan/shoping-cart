@@ -1,0 +1,40 @@
+:root{
+    --main-color : #1DA6F7;
+    --sec-color : #ffff;
+    --text-color : #1b1f24;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container.content{
+    padding: 15px 15% ;
+}
+.navbar{
+    background: var(--main-color);
+}
+
+.title{
+   text-align: center;
+   margin: 2rem; 
+}
+
+.img-product{
+    width: 100%;
+}
+
+.img-product img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.total-pembayaran{
+    text-align: end;
+    background: var(--main-color);
+    padding: 0.5rem 2rem 0.5rem;
+    border-radius: 5px;
+}
+.total-pembayaran p{
+    color: var(--sec-color);
+}
